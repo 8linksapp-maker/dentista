@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Cores base - serão sobrescritas pelo JavaScript */
+  --site-primary: #0ea5e9;
+  --site-secondary: #64748b;
+  --site-accent: #f59e0b;
+  --site-background: #ffffff;
+  --site-foreground: #1a1a1a;
+  
+  /* Variações automáticas */
+  --site-primary-light: color-mix(in srgb, var(--site-primary) 80%, white);
+  --site-primary-dark: color-mix(in srgb, var(--site-primary) 80%, black);
+}
+
+body {
+  background-color: var(--site-background);
+  color: var(--site-foreground);
+}

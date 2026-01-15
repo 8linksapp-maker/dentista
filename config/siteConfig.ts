@@ -306,22 +306,29 @@ export const defaultSiteData: SiteData = {
     }
   ],
   combinedPages: [
-    { 
-      id: 'cp-1', 
-      serviceId: '2', // Implantes
-      locationId: '1', // Jardins
-      isActive: true, 
+    {
+      id: 'cp-1',
+      serviceId: '2',
+      locationId: '1',
+      isActive: true,
       customHeadline: 'Implantes Dentários Premium nos Jardins - SP',
       customDescription: 'Recupere seu sorriso com a melhor clínica de implantes dos Jardins. Carga imediata e sedação para seu conforto.',
-      createdAt: '2024-01-14' 
+      createdAt: '2024-01-14',
     },
-    { 
-      id: 'cp-2', 
-      serviceId: '1', // Clareamento
-      locationId: '2', // Moema
-      isActive: true, 
+    {
+      id: 'cp-2',
+      serviceId: '1',
+      locationId: '2',
+      isActive: true,
       customHeadline: 'Clareamento Dental a Laser em Moema',
-      createdAt: '2024-01-15' 
+      createdAt: '2024-01-15',
+    },
+    {
+      id: 'page-1768435617745',
+      serviceId: '6',
+      locationId: '4',
+      isActive: true,
+      createdAt: '2026-01-15T00:06:57.745Z',
     }
   ],
   media: { 
